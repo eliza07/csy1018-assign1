@@ -1,5 +1,3 @@
-
-
 header{
   background: rgba(255,255,255,0.7);
   display: flex;
@@ -8,6 +6,7 @@ header{
   opacity: 0.7;
   z-index: 1;
   background-color: lightgrey;
+
 }
 header .logo{
   order: 1;
@@ -16,8 +15,8 @@ header .logo{
   width: 200px;
   z-index: 2;
   align-items: center;
-}
 
+}
 .logo img{
   height: 100%;
   width: 100%;
@@ -38,16 +37,14 @@ body{
   background-color: lightgrey;
   font-family: monospace;
   font-size: 16px;
-
 }
-.main_content{
-  background-image: url("../images/alizaa.jpg");
-  height:917px;
-
+  .main_content{
+  background-color: lightblue;
 
 }
 
-ul {
+
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -64,6 +61,7 @@ li a {
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
+
 }
 
 li a:hover {
@@ -74,47 +72,61 @@ li a:hover {
 
 
 
+
+
+
 /*.content{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }*/
-
-
-.content {
-    padding: 20px;
-    text-align: center;
-    color: red;
-    margin-top: 135px;
-    margin-left: 492px;
-    background-color: rgba(200,200,200, 0.5);
-    width: 250px;
-    height: 100px;
-    align-content: center;
-
+h2{
+  text-align: center;
 }
+p{
+  text-align: center;
+}
+}
+form{
+  padding: 10px;
 
+  color: white;
+}
+input{
+  padding: 0.2em; border-radius: 7px; border: 1px solid grey;
+}
+select{
+  width: 20%; padding: 0.2em; border-radius: 6px;
+}
+.submit{
+  padding: 0.3em 2em; cursor: pointer;
+  transition: padding 2s;
+}
+.submit:hover{
+    padding: 0.3em 4em;
+    box-shadow: 2px 2px 7px red;
+  }
+  footer{
+    width: 100%;
+    height: 80px;
+    background: lightgrey;
 
-footer{
-  width: 100%;
-  height: 80px;
-  background-color:  rgba(200,200,200,0.7);
-  opacity: 0.9;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  /*margin-top: 200px;*/
-}
-footer .logo{
-  order: 2;
-  height: 100%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /*margin-top: 200px;*/
+  }
+  footer .logo{
+    order: 2;
+    height: 100%;
 
-}
-footer .logo img{
-      width: 220px;
-}
-footer .copyright{
-  oder: 1;
-  color: black;
-  margin-top: 13px;
-}
+  }
+  footer .logo img{
+        width: 220px;
+  }
+  footer .copyright{
+    oder: 1;
+    color: black;
+    margin-top: 13px;
+  }

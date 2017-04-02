@@ -111,8 +111,16 @@ footer .logo{
 
 }
 footer .logo img{
-      width: 220px;
+      width: 40px;
+      height: 40px;
+      oder: 1;
+      color: black;
+      margin-top: 20px;
+
 }
+
+
+
 footer .copyright{
   oder: 1;
   color: black;

@@ -40,7 +40,9 @@ body{
   font-size: 16px;
 }
   .main_content{
-  background: linear-gradient(#EECDA3,#EF629F);
+
+    background: linear-gradient(#EECDA3,#EF629F);
+height: 900px;
 
 }
 
@@ -81,7 +83,11 @@ li a:hover {
   flex-direction: row;
   justify-content: flex-end;
 }*/
+.biography{
+  font-style: italic;
+  color: white;
 
+}
 
 
 

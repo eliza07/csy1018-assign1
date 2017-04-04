@@ -48,7 +48,7 @@ body{
 
 }
 h1{
-  color: red;
+  color: grey;
   margin-left: 30px;
   margin-top: 120px;
   font-weight: bold;
@@ -58,7 +58,7 @@ h1{
   color: red;
   margin-left: 30px;
   font-weight: bold;
-  font-size: 200%;
+  font-size: 150%;
   font-style: italic;
 }
 

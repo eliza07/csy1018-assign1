@@ -41,10 +41,25 @@ body{
 
 }
 .main_content{
-  background-image: url("../images/alizaa.jpg");
-  height:917px;
+  background-image: url("../images/glass.jpg");
+  background-size: cover;
+  height:750px;
 
 
+}
+h1{
+  color: red;
+  margin-left: 30px;
+  margin-top: 120px;
+  font-weight: bold;
+  font-style: italic;
+}
+.info{
+  color: red;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 200%;
+  font-style: italic;
 }
 
 ul {
@@ -84,13 +99,15 @@ li a:hover {
 .content {
     padding: 20px;
     text-align: center;
+    font-style: italic;
     color: red;
     margin-top: 135px;
-    margin-left: 492px;
-    background-color: rgba(200,200,200, 0.5);
+    margin-left: 100px;
+    background-color: rgba(200,200,200, 0.3);
     width: 250px;
     height: 100px;
     align-content: center;
+
 
 }
 
@@ -103,14 +120,14 @@ footer{
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  /*margin-top: 200px;*/
-}
-footer .logo{
-  order: 2;
-  height: 100%;
 
 }
-footer .logo img{
+footer .icon{
+  order: 2;
+
+
+}
+footer .icon img{
       width: 40px;
       height: 40px;
       oder: 1;
@@ -124,5 +141,5 @@ footer .logo img{
 footer .copyright{
   oder: 1;
   color: black;
-  margin-top: 13px;
+  margin-top: 20px;
 }

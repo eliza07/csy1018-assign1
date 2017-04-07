@@ -1,0 +1,170 @@
+header{
+  background: rgba(255,255,255,0.7);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 0.7;
+  z-index: 1;
+  background-color: lightgrey;
+}
+header .logo{
+  order: 1;
+  background-color: lightgrey;
+  height: 60px;
+  width: 200px;
+  z-index: 2;
+  align-items: center;
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
+}
+
+
+nav{
+  order: 2;
+  background: rgba(255,255,255,0.7);
+  width: 300px;
+  background-color: lightgrey;
+
+
+  /*opacity: 0.3;*/
+
+}
+body{
+  background-color: lightgrey;
+  font-family: monospace;
+  font-size: 16px;
+
+}
+
+section{
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+
+li a {
+  display: block;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 2s;
+
+}
+.logo img:hover {
+    background-color: rgba(255, 254, 255, 0.9);
+    transition: 2s;
+}
+
+
+/*.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}*/
+.main_content{
+
+  background: linear-gradient(#EECDA3,#EF629F);
+height: 980px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.flex-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-item {
+  text-align: center;
+    background-color: rgba(83, 165, 182, 0.2);
+    width: 700px;
+    height: 250px;
+    margin: 10px;
+
+}
+div .cv{
+  color: white;
+  margin: 0px 0px 0px 20px;
+text-align: center;
+color:rgb(175, 8, 55);
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color:  rgba(200,200,200,0.7);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background: lightpink;
+
+}
+footer .icon{
+  order: 2;
+
+
+}
+footer .icon img{
+      width: 40px;
+      height: 40px;
+      oder: 1;
+      color: black;
+      margin-top: 20px;
+
+}
+
+
+
+footer .copyright{
+  oder: 1;
+  color: black;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 425px) {
+  header{
+    background: rgba(255,255,255,0.7);
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0.7;
+    z-index: 1;
+    background-color: lightgrey;
+  }
+  div{
+    width: 100%;
+  }
+
+  section{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+  }
+}

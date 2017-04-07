@@ -2,13 +2,15 @@
 <html>
 <head>
 <title> Email us</title>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 <body>
   <div class="main_content">
   <header>
       <div class="logo">
-        <img src="images/logo.png" alt="">
+        <a href="file:///E:/web%20assignment/csy1018-assign1/index.html" ><img src="images/logo.png" alt=""> </a>
 
       </div>
           <nav>
@@ -21,53 +23,68 @@
         </nav>
 
       </header>
+
+      <section>
+
+        <aside class="">
+
+
       <div class="photo">
-        <img src="images/barca.jpg" alt="">
+        <img src="images/barcaa.jpg" alt="">
       </div>
 
+<div class="details">
+
+   <h2> Contact Eliza</h2>
+   <div class="contact_details">
+
+     <p>
+       Phone: 9842751413<br>
+       E-mail: elizadahal52@gmail.com<br>
+       Address:bhaktapur<br>
+   </p>
+   </div>
+
+</div>
+
+</aside>
+<main>
 
 
- <h2> Contact Eliza</h2>
- <div class="contact_details">
-
-   <p>
-     Phone: 9842751413<br>
-     E-mail: elizadahal52@gmail.com<br>
-     Address:bhaktapur<br>
- </p>
- </div>
-<h3> How can I help? Send me an email if there isn’t a related support article.</h3>
+<h3> How can I help? Send me an email if there is not a related support article.</h3>
 
  <form action="contact.html" method="get">
    <fieldset>
      <legend> CONTACT FORM </legend>
-     <label> Firstname </label>
+     <label class="first_name"> Firstname </label>
      <input type="text"name="Firstname" placeholder="first name"><br><br>
 
-     <label> Lastname </label>
+     <label class="last_name"> Lastname </label>
      <input type="text"name="Lastname"placeholder="last name"><br><br>
 
-     <label> Gender </label>
+     <label class="gender"> Gender </label>
      <input type="radio"name="Gender"value="male">Male
      <input type="radio"name="Gender"value="female">Female
      <br><br>
-     <label>faculty</label>
-     <select name="faculty">
+     <label class="faculty">Faculty</label>
+     <select name="Faculty">
        <option value="bba">BBA</option>
        <option value="mba">MBA</option>
        <option value="computing">COMPUTING</option>
        <option value="alevels">ALevels</option>
      </select>
      <br><br>
-     <label>Birthdate</label>
+     <label class="date">Birthdate</label>
      <input type="date" name="day">
      <br><br>
      Message<BR>
      <textarea rows="10" cols="70"></textarea><br>
-     <input type="submit" value="submit">
+     <input class = "submit_button" type="submit" value="submit">
    </fieldset>
  </form>
-   </div>
+ </main>
+ </section>
+</div>
  <footer>
    <div class="icon">
        <img src="images/fb.png"alt="">

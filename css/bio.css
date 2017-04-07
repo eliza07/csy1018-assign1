@@ -43,6 +43,7 @@ body{
 
     background: linear-gradient(#EECDA3,#EF629F);
 height: 900px;
+font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -75,7 +76,10 @@ li a:hover {
 
 
 
-
+.logo img:hover {
+    background-color: rgba(255, 254, 255, 0.9);
+    transition: 2s;
+}
 
 
 /*.content{
@@ -84,7 +88,7 @@ li a:hover {
   justify-content: flex-end;
 }*/
 .biography{
-  font-style: italic;
+
   color: white;
 
 }

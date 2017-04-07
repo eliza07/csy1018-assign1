@@ -1,5 +1,5 @@
 header{
-  background: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.7);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,7 +23,7 @@ header .logo{
 }
 
 .Mybio{
-  color: #455262;
+  color:rgb(175, 8, 55);
   margin-left: 30px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
@@ -35,12 +35,12 @@ header .logo{
 
 nav{
   order: 2;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.7);
   width: 300px;
   background-color: lightgrey;
 
 
-  /*opacity: 0.3;*/
+
 
 }
 body{
@@ -48,11 +48,12 @@ body{
   font-family: monospace;
   font-size: 16px;
 }
-  .main_content{
 
-    background: linear-gradient(#EECDA3,#EF629F);
-height: 900px;
+  .main_content{
+height: 980px;
 font-family: 'Josefin Sans', sans-serif;
+background-image: url("../images/biooo.jpg");
+background-size: cover;
 
 }
 
@@ -91,32 +92,31 @@ li a:hover {
 }
 
 
-/*.content{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}*/
+
 .biography{
 
-  color: white;
-}
-.biography h1{
-  margin-left: 30px;
   color:rgb(175, 8, 55);
 
 }
+.biography h1{
+  margin-left: 210px;
+  color:#455262;
+
+
+}
 
 
 
-ooter {
+footer {
 width : 100%;
 height : 80px;
-background : lightpink;
+background : lightgrey;
 opacity : 0.8999999761581420898437;
 display : flex;
 flex-direction : row-reverse;
 justify-content : space-between;
 }
+
 footer .icon {
 order : 2;
 }

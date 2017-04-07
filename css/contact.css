@@ -133,35 +133,29 @@ select{
   }*/
 
 
-  footer{
-    width: 100%;
-    height: 80px;
-    background: lightpink;
+  footer {
+width : 100%;
+height : 80px;
+background : lightpink;
+opacity : 0.89999997615814208984375;
+display : flex;
+flex-direction : row-reverse;
+justify-content : space-between;
+}
+footer .icon {
+order : 2;
+}
+footer .icon img {
+width : 40px;
+height : 40px;
+color : black;
+margin-top : 20px;
+}
+footer .copyright {
+color : black;
+margin-top : 13px;
+}
 
-    opacity: 0.9;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    /*margin-top: 200px;*/
-  }
-  footer .icon{
-    order: 2;
-
-
-  }
-  footer .icon img{
-    width: 40px;
-    height: 40px;
-    oder: 1;
-    color: black;
-    margin-top: 20px;
-
-  }
-  footer .copyright{
-    oder: 1;
-    color: black;
-    margin-top: 13px;
-  }
   .first_name{
         padding-right: 28px;
   }

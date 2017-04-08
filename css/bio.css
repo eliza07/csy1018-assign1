@@ -3,10 +3,10 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  opacity: 0.6;
+  opacity: 0.7;
   z-index: 1;
   background-color: lightgrey;
-
+  /*adding style for the header portion which includes logo and navigation bar*/
 }
 header .logo{
   order: 1;
@@ -15,13 +15,14 @@ header .logo{
   width: 200px;
   z-index: 2;
   align-items: center;
-
+  /*adding style to logo in the top left side of the homepage*/
 }
+
 .logo img{
   height: 100%;
   width: 100%;
+  /*giving height and width to the logo*/
 }
-
 .Mybio{
   color:rgb(175, 8, 55);
   margin-left: 30px;
@@ -31,6 +32,7 @@ header .logo{
   background-color: rgba(200,200,200, 0.3);
   width: 600px;
   height: 400px;
+  /*adding styles to the my bio section*/
 }
 
 nav{
@@ -38,33 +40,34 @@ nav{
   background: rgba(255,255,255,0.7);
   width: 300px;
   background-color: lightgrey;
-
-
-
+  /*adding styles to the navigation bar*/
 
 }
 body{
   background-color: lightgrey;
   font-family: monospace;
   font-size: 16px;
+  /*adding styles to the body*/
 }
 
   .main_content{
 height: 980px;
 font-family: 'Josefin Sans', sans-serif;
-background-image: url("../images/biooo.jpg");
+background-image: url("../images/bio.jpg");
 background-size: cover;
+/*adding background image to the main content o the biography section and also the fonts*/
 
 }
 
 
- ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    /*adding style to the navigation*/
 }
 
 
@@ -75,20 +78,20 @@ li a {
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
-
+    /*adding style to the navigation title*/
 }
 
 li a:hover {
     background-color: rgba(0, 0, 0, 0.9);
     transition: 2s;
-
+/*adding transition while hovering the navigation titles*/
 }
-
-
 
 .logo img:hover {
     background-color: rgba(255, 254, 255, 0.9);
     transition: 2s;
+        /*adding transition while hovering the logo portion*/
+
 }
 
 
@@ -96,12 +99,13 @@ li a:hover {
 .biography{
 
   color:rgb(175, 8, 55);
+  /*adding color to the text */
 
 }
 .biography h1{
   margin-left: 210px;
   color:#455262;
-
+/*giving styles to the heading portion*/
 
 }
 
@@ -110,23 +114,28 @@ li a:hover {
 footer {
 width : 100%;
 height : 80px;
-background : lightgrey;
-opacity : 0.8999999761581420898437;
+background-color : rgba(200, 200, 200, 0.7);
+opacity : 0.89999997615814208984375;
 display : flex;
 flex-direction : row-reverse;
 justify-content : space-between;
 }
-
+/*adding all the necessary styles to the footer section*/
 footer .icon {
 order : 2;
 }
+/*giving flex order to the icon in the footer*/
+
 footer .icon img {
 width : 40px;
 height : 40px;
 color : black;
 margin-top : 20px;
 }
+/*adding styles to the images of the icons*/
+
 footer .copyright {
 color : black;
-margin-top : 13px;
+margin-top : 20px;
 }
+/*adding styles to the copyright section in the footer*/

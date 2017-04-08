@@ -1,12 +1,12 @@
 header{
-  background: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.7);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  opacity: 0.6;
+  opacity: 0.7;
   z-index: 1;
   background-color: lightgrey;
-
+  /*adding style for the header portion which includes logo and navigation bar*/
 }
 header .logo{
   order: 1;
@@ -15,21 +15,24 @@ header .logo{
   width: 200px;
   z-index: 2;
   align-items: center;
-
+  /*adding style to logo in the top left side of the homepage*/
 }
+
 .logo img{
   height: 100%;
   width: 100%;
+  /*giving height and width to the logo*/
 }
-
 .photo img{
   height: 200px;
   width:200px;
   transition: width 1s, height 1s;
+  /*adding styles for the image in the contact*/
 }
 .photo img:hover{
   width: 265px;
    height: 265px;
+   /*adding transition to the image*/
 }
 
 nav{
@@ -37,38 +40,41 @@ nav{
   background: rgba(255,255,255,0.9);
   width: 300px;
   background-color: lightgrey;
+/*adding styles to the navigation bar*/
 
-
-  /*opacity: 0.3;*/
 
 }
 body{
   background-color: lightgrey;
   font-family: monospace;
   font-size: 16px;
+  /*adding styles to the body*/
 }
   .main_content{
   background: linear-gradient(#EECDA3,#EF629F);
     font-family: 'Josefin Sans', sans-serif;
+    height: 750px;
+
+    /*giving background and font to the man content in the contact*/
 
 }
 
 section{
   display: flex;
-  /*flex-direction: row;*/
-  /*justify-content: flex-start;*/
+/*displaying flex property to the section part*/
 }
 section aside{
   width: 30%;
 }
 
- ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    /*adding style to the navigation*/
 }
 
 
@@ -79,13 +85,13 @@ li a {
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
-
+    /*adding style to the navigation title*/
 }
 
 li a:hover {
     background-color: rgba(0, 0, 0, 0.9);
     transition: 2s;
-
+/*adding transition while hovering the navigation titles*/
 }
 
 
@@ -93,84 +99,94 @@ li a:hover {
 
 
 
-/*.content{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}*/
 .logo img:hover {
     background-color: rgba(255, 254, 255, 0.9);
     transition: 2s;
+    /*giving height and width to the logo*/
+
 }
 
 h3{
   font-size: 18px;
   margin-left: 30px;
+  /*adding styles to h3 portion */
 }
 form{
   padding: 10px;
- width: 547px;
+ width: 550px;
   color: black;
   margin-right: 10%;
-
+/*giving styles to the form field in the contact form*/
 
 }
 input{
   padding: 0.2em; border-radius: 0px;
       margin-left: 10px;
       border: 2px solid white;
+      /*adding styles to the input section*/
 }
 select{
   width: 20%; padding: 0.2em; border-radius: 0px;    margin-left: 33px;
+  /*adding styles to the select part*/
 }
-/*.submit{
-  padding: 0.3em 2em; cursor: pointer;
-  transition: padding 2s;
-}
-.submit:hover{
-    padding: 0.3em 4em;
-    box-shadow: 2px 2px 7px red;
-  }*/
 
-
-  footer {
+footer {
 width : 100%;
 height : 80px;
-background : lightpink;
+background-color : rgba(200, 200, 200, 0.7);
 opacity : 0.89999997615814208984375;
 display : flex;
 flex-direction : row-reverse;
 justify-content : space-between;
+
+background : lightpink;
+/*adding all the necessary styles to the footer section*/
 }
 footer .icon {
 order : 2;
+/*giving flex order to the icon in the footer*/
+
 }
 footer .icon img {
 width : 40px;
 height : 40px;
 color : black;
 margin-top : 20px;
+/*adding styles to the images of the icons*/
+
 }
 footer .copyright {
 color : black;
-margin-top : 13px;
+margin-top : 20px;
+/*adding styles to the copyright section in the footer*/
+
 }
+
 
   .first_name{
         padding-right: 28px;
+        /*individual padding to make it in the same row*/
   }
   .last_name{
         padding-right: 27px;
+        /*individual padding to make it in the same row*/
+
   }
   .gender{
         padding-right: 44px;
+        /*individual padding to make it in the same row*/
+
   }
   .faculty{
     padding-right: 22px;
+    /*individual padding to make it in the same row*/
+
 
   }
   .date{
         padding-right: 33px;
+        /*individual padding to make it in the same row*/
+
   }
   .submit_button{
     background-color: #eeada2;
@@ -181,12 +197,14 @@ margin-top : 13px;
     margin-top: 5px;
     padding: 0.3em 2em; cursor: pointer;
     transition: padding 2s;
-
+/*adding styles to the submit button in the form*/
   }
 .submit_button:hover{
   padding: 0.3em 4em;
   box-shadow: 2px 2px 7px red;
+  /*adding transitions to the submit button which will grow on hover*/
 }
-.details
-{margin-left: 20px
+.details{
+  margin-left: 20px;
+  /*giving margin to the details section*/
 }

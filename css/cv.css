@@ -6,6 +6,7 @@ header{
   opacity: 0.7;
   z-index: 1;
   background-color: lightgrey;
+  /*adding style for the header portion which includes logo and navigation bar*/
 }
 header .logo{
   order: 1;
@@ -14,12 +15,21 @@ header .logo{
   width: 200px;
   z-index: 2;
   align-items: center;
+  /*adding style to logo in the top left side of the homepage*/
 }
 
 .logo img{
   height: 100%;
   width: 100%;
+  /*giving height and width to the logo*/
 }
+.logo img:hover {
+    background-color: rgba(255, 254, 255, 0.9);
+    transition: 2s;
+    /*adding transition while hovering the logo portion*/
+}
+
+
 
 
 nav{
@@ -27,27 +37,27 @@ nav{
   background: rgba(255,255,255,0.7);
   width: 300px;
   background-color: lightgrey;
+  /*adding styles to the nav bar*/
 
 
-  /*opacity: 0.3;*/
 
 }
 body{
   background-color: lightgrey;
-  font-family: monospace;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
+  /*adding styles to the main body*/
 
 }
 
-section{
-}
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    /*adding style to the navigation*/
 }
 
 
@@ -58,29 +68,22 @@ li a {
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
+    /*adding style to the navigation title*/
 }
 
 li a:hover {
     background-color: rgba(0, 0, 0, 0.9);
     transition: 2s;
-
-}
-.logo img:hover {
-    background-color: rgba(255, 254, 255, 0.9);
-    transition: 2s;
+/*adding transition while hovering the navigation titles*/
 }
 
 
-/*.content{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}*/
 .main_content{
 
   background: linear-gradient(#EECDA3,#EF629F);
 height: 980px;
   font-family: 'Josefin Sans', sans-serif;
+  /*adding styles,gradient to the main content of the page*/
 
 }
 
@@ -89,17 +92,22 @@ height: 980px;
   flex-direction: row;
   justify-content: space-between;
   font-weight: bold;
+  /*adding flex properties to the container portion*/
 
 }
 .flex-container2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /*adding flex properties to the container portion*/
+
 }
 .flex-container3{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /*adding flex properties to the container portion*/
+
 }
 .flex-item {
 
@@ -107,11 +115,14 @@ height: 980px;
     width: 700px;
     height: 250px;
     margin: 10px;
+    /*adding flex properties to the container portion*/
+
 
 
 }
 .picture img{
 height: 150px;
+/*adding height to the small image*/
 
 }
 
@@ -119,6 +130,7 @@ div .cv{
   color: white;
   margin: 0px 0px 0px 10px;
 color:rgb(175, 8, 55);
+/*giving stles to the cv portion*/
 }
 
 footer {
@@ -130,29 +142,36 @@ display : flex;
 flex-direction : row-reverse;
 justify-content : space-between;
 background : lightpink;
+/*adding all the necessary styles to the footer section*/
 }
 footer .icon {
 order : 2;
+/*giving flex order to the icon in the footer*/
+
 }
 footer .icon img {
 width : 40px;
 height : 40px;
 color : black;
 margin-top : 20px;
+/*adding styles to the images of the icons*/
+
 }
 footer .copyright {
 color : black;
 margin-top : 20px;
+/*adding styles to the copyright section in the footer*/
+
 }
 
 @media (max-width: 425px) {
   header{
     background: rgba(255,255,255,0.7);
     flex-direction: column;
-    justify-content: space-between;
     opacity: 0.7;
     z-index: 1;
     background-color: lightgrey;
+    /*for responsive website*/
   }
   div{
     width: 100%;

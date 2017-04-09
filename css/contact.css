@@ -27,12 +27,12 @@ header .logo{
   height: 200px;
   width:200px;
   transition: width 1s, height 1s;
-  /*adding styles for the image in the contact*/
+  /*adding styles for the image in the contact (Data 1998)*/
 }
 .photo img:hover{
   width: 265px;
    height: 265px;
-   /*adding transition to the image*/
+   /*adding transition to the image (Data 1998)*/
 }
 
 nav{
@@ -47,13 +47,14 @@ nav{
 body{
   background-color: lightgrey;
   font-family: monospace;
-  font-size: 16px;
+  font-size: 1.000em;
   /*adding styles to the body*/
 }
   .main_content{
   background: linear-gradient(#EECDA3,#EF629F);
     font-family: 'Josefin Sans', sans-serif;
-    height: 750px;
+      /*[Anon, Google Fonts]  */
+
 
     /*giving background and font to the man content in the contact*/
 
@@ -107,61 +108,30 @@ li a:hover {
 }
 
 h3{
-  font-size: 18px;
+  font-size: 1.125em;
   margin-left: 30px;
   /*adding styles to h3 portion */
 }
 form{
   padding: 10px;
- width: 550px;
   color: black;
   margin-right: 10%;
 /*giving styles to the form field in the contact form*/
 
 }
+
 input{
   padding: 0.2em; border-radius: 0px;
       margin-left: 10px;
       border: 2px solid white;
       /*adding styles to the input section*/
 }
+
+
 select{
   width: 20%; padding: 0.2em; border-radius: 0px;    margin-left: 33px;
   /*adding styles to the select part*/
 }
-
-footer {
-width : 100%;
-height : 80px;
-background-color : rgba(200, 200, 200, 0.7);
-opacity : 0.89999997615814208984375;
-display : flex;
-flex-direction : row-reverse;
-justify-content : space-between;
-
-background : lightpink;
-/*adding all the necessary styles to the footer section*/
-}
-footer .icon {
-order : 2;
-/*giving flex order to the icon in the footer*/
-
-}
-footer .icon img {
-width : 40px;
-height : 40px;
-color : black;
-margin-top : 20px;
-/*adding styles to the images of the icons*/
-
-}
-footer .copyright {
-color : black;
-margin-top : 20px;
-/*adding styles to the copyright section in the footer*/
-
-}
-
 
   .first_name{
         padding-right: 28px;
@@ -207,4 +177,108 @@ margin-top : 20px;
 .details{
   margin-left: 20px;
   /*giving margin to the details section*/
+}
+
+
+
+
+footer {
+width : 100%;
+height : 80px;
+background-color : lightpink;
+opacity : 0.89999997615814208984375;
+display : flex;
+flex-direction : row-reverse;
+justify-content : space-between;
+}
+/*adding all the necessary styles to the footer section*/
+footer .icon {
+order : 2;
+}
+/*giving flex order to the icon in the footer*/
+
+footer .icon img {
+width : 40px;
+height : 40px;
+color : black;
+margin-top : 20px;
+}
+/*adding styles to the images of the icons*/
+
+footer .copyright {
+color : black;
+margin-top : 20px;
+}
+/*adding styles to the copyright section in the footer*/
+
+@media (max-width:900px) {
+header
+{
+  width: 100%; display: flex; flex-direction: column;
+  /*adding styles for the responsive website*/
+
+}
+.logo{
+  width: 20%; margin: 0 auto;
+  /*adding styles for the logo of responsive website*/
+
+}
+nav{
+  width: 100%;
+  /*adding styles for the navigation of responsive website*/
+
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  /*adding styles for the navigation title responsive website*/
+
+}
+nav ul li:hover{
+  background-color: white;
+  /*adding styles for adding transitions while hovering the responsive website*/
+
+}
+body{
+  width: 100%;
+  /*adding styles for the body of responsive website*/
+
+}
+section
+{
+  width: 100%;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  /*adding styles for the section of responsive website*/
+
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /*adding styles for the footer of  responsive website*/
+
+}
+.icon{
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /*adding styles for icon portion the responsive website*/
+
+}
+textarea
+{
+  width: 100%;
+  /*style for text area*/
+}
+fieldset
+{
+  width: 100%;
+  /*style for fieldset of contact form*/
+}
 }

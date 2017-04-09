@@ -43,7 +43,8 @@
   body{
     background-color: lightgrey;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    /*[Anon, Google Fonts]  */
+    font-size: 1.000em;
     /*adding styles to the main body*/
 
   }
@@ -70,7 +71,7 @@
     margin-left: 30px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 1.5000em;
     background-color: rgba(200,200,200, 0.3);
     width: 400px;
     /*adding styles to the info section*/
@@ -132,3 +133,49 @@ color : black;
 margin-top : 20px;
 }
 /*adding styles to the copyright section in the footer*/
+@media (max-width:900px)
+{
+header
+{ width: 100%; display: flex; flex-direction: column;
+}
+.logo{
+  width: 20%; margin: 0 auto;
+}
+nav{
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+
+}
+nav ul li:hover{
+  background-color: white;
+}
+body{
+  width: 100%;
+}
+section{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.info p{
+  width: 100%;
+  font-size: 0.5em;
+}
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+}

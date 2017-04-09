@@ -54,6 +54,7 @@ body{
 height: 980px;
 font-family: 'Josefin Sans', sans-serif;
 background-image: url("../images/bio.jpg");
+  /*[Anon, Google Fonts]  */
 background-size: cover;
 /*adding background image to the main content o the biography section and also the fonts*/
 
@@ -139,3 +140,91 @@ color : black;
 margin-top : 20px;
 }
 /*adding styles to the copyright section in the footer*/
+@media (max-width:800px)
+/*for making my website responsive*/
+
+{
+header
+{ width: 100%; display: flex; flex-direction: column;
+    /*adding styles for the responsive website*/
+}
+.logo{
+  width: 20%; margin: 0 auto;
+  /*adding styles for the logo of responsive website*/
+
+}
+nav{
+  width: 100%;
+  /*adding styles for the navigation of responsive website*/
+
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  /*adding styles for the navigation title responsive website*/
+
+}
+.biography{
+  width: 100%;
+  margin: 0;
+  /*adding styles for the biography section responsive website*/
+
+}
+
+nav ul li:hover{
+  background-color: white;
+  /*adding styles for adding transitions while hovering the responsive website*/
+
+}
+body{
+  width: 100%;
+  /*adding styles for the responsive website*/
+
+}
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5em;
+  /*adding styles for the section of responsive website*/
+
+}
+.Mybio{
+  width: 100%;
+  margin-left: 0;
+  /*adding styles for the my bio portion of responsive website*/
+
+}
+.Mybio p{
+  width: 100%;
+  word-wrap: break-word;
+  /*adding styles for the  my bio section of responsive website*/
+
+
+}
+
+footer{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  /*adding styles for the footer of  responsive website*/
+
+}
+
+.icon{
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /*adding styles for icon portion the responsive website*/
+
+}
+.copyright{
+  width: 100%;
+  text-align:center;
+  /*adding styles for the copyright section responsive website*/
+
+}
+}

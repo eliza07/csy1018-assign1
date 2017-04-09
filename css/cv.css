@@ -1,3 +1,4 @@
+
 header{
   background: rgba(255,255,255,0.7);
   display: flex;
@@ -45,7 +46,8 @@ nav{
 body{
   background-color: lightgrey;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+    /*[Anon, Google Fonts]  */
+  font-size: 1.000em;
   /*adding styles to the main body*/
 
 }
@@ -81,7 +83,6 @@ li a:hover {
 .main_content{
 
   background: linear-gradient(#EECDA3,#EF629F);
-height: 980px;
   font-family: 'Josefin Sans', sans-serif;
   /*adding styles,gradient to the main content of the page*/
 
@@ -114,7 +115,6 @@ height: 980px;
     background-color: rgba(83, 165, 182, 0.2);
     width: 700px;
     height: 250px;
-    margin: 10px;
     /*adding flex properties to the container portion*/
 
 
@@ -163,23 +163,86 @@ margin-top : 20px;
 /*adding styles to the copyright section in the footer*/
 
 }
+@media (max-width:900px)
+{
+header
+{ width: 100%; display: flex; flex-direction: column;
+}
+.logo{
+  width: 20%; margin: 0 auto;
+}
+nav{
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
 
-@media (max-width: 425px) {
-  header{
-    background: rgba(255,255,255,0.7);
-    flex-direction: column;
-    opacity: 0.7;
-    z-index: 1;
-    background-color: lightgrey;
-    /*for responsive website*/
-  }
-  div{
-    width: 100%;
-  }
+}
+nav ul li:hover{
+  background-color: white;
+}
+body{
+  width: 100%;
+}
+section{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.flexcontainers{
+    background: linear-gradient(#EECDA3,#EF629F);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.flex-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.5em;
+}
+.flex-container2{
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  font-size: 0.5em;
 
-  section{
-    background: orange;
-    display: flex;
-    flex-direction: column;
-  }
+}
+.flex-container3{
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  font-size: 0.5em;
+
+}
+.flex-item{
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.cv{
+  text-align: left;
+  width: 50%;
+  margin-top: 100%;
+}
+.copyright p{
+  font-size: 1em;
+}
 }
